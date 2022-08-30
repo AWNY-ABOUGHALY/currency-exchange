@@ -1,0 +1,224 @@
+.wholepage {
+    background-color: #fcd359;
+}
+.exchangeapp {
+    width: 280px;
+    box-shadow: 1px 1px 10px darkred;
+    overflow: hidden;
+}
+.tophalf {
+    height: 355px; 
+    background-image: url(../imgs/bg-screen.jpg);
+    transition: 1s;
+}
+.tophalfafter {
+    height: 100%;
+    width: 100%;
+}
+.tophalf .opacityimg{
+    height: 100%; 
+    background-color: #6C0241;   
+    opacity: 0.95;   
+}
+.header div.logo span {
+    font-size: 40px;
+    line-height: 1.1;
+}
+.beginningmsg {
+    width: 100%;
+    height: 190px;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.beginningmsg div:first-child {
+    color: #d6a309;
+    font-weight: bold;
+}
+.beginningmsg div:not(div:first-child) {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.countryselect {
+    height: 40px;
+}
+.exchangescreen {
+    display: none;
+}
+.exchangescreen div.screen {
+    font-size: 3rem;
+}
+.headscreen {
+    font-size: 11px;
+}
+.headtitle {
+    font-size: 14px;
+}
+.shorttitle {
+    font-size: 12px;
+}
+.exchangeequal {
+    font-size: 14px;
+}
+.compare {
+    visibility: hidden;
+    opacity:0;
+}
+.compareall {
+    box-shadow: 1px 1px 10px black;
+    width: 100%;
+    background-color: white;
+    color: #d4a105;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px 3px 4px;
+}
+.comcontall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+.comcontall img {
+    width: 18px;
+}
+.comparetitle {
+    font-size: 11px;
+}
+.comheadall {
+    font-size: 11px;
+    text-align: start;
+    color: #6C0241;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 13px;
+}
+.bottomhalf {
+    background-color: #fafafa;
+    height: 100px;
+    transition: 1s;
+}
+.firstcountry, .secondcountry {
+    padding: 2px;
+}
+.firstcountry select, .secondcountry select {
+    width: 60px;
+    font-size: 18px;
+    border: none !important;
+    outline: none !important;
+    color: #6C0241 !important;
+    text-shadow: 1px 1px 1px;
+}
+.firstcountry select:focus, .secondcountry select:focus {
+    border: none;
+}
+.firstcountry select option, .secondcountry select option {
+    font-size: 16px;
+    text-align: left;
+}
+select option:checked {
+    text-align: center;
+    color: #6C0241;
+}
+.switcharrow {
+    color: #6C0241 !important;
+    text-shadow: 1px 1px 1px;
+    cursor: pointer;
+}
+.exbtn button {
+    font-size: 12px;
+    color: white !important;
+    background-color: #6C0241 !important;
+    box-shadow: 0px 0px 3px black !important;
+    border-color: #6C0241 !important;
+}
+.exbtn button:hover {
+    color: white !important;
+    background-color: #be8f00 !important;
+    border-color: #be8f00 !important;
+}
+.exbtn button:active {
+    color: white !important;
+    background-color: #6C0241 !important;
+    border-color: #6C0241 !important;
+}
+.calc {
+    height: 30px;
+    width: 30px;
+    left: 50%;
+    bottom: -22px;
+    transform: translateX(-50%);
+    border-radius: 40px;
+    color: white;
+    outline: 3px solid #fafafa;
+    background-color: #be8f00;
+    cursor: pointer;
+}
+.calculator {
+    bottom: 0px;
+    width: 100%;
+    height: 220px;
+    background-color: #6C0241;
+    display: none;
+}
+.calculatortitle {
+    font-size: 14px;
+    color: #d6a309;
+    font-weight: bold;
+}
+.calcscreen {
+    width: 100%;
+    height: 90px;
+    font-size: 30px;
+}
+.calcbtns div button {
+    background-color: #834e6e;
+    border: none;
+    width: calc(100%/3);
+    margin: 2px;
+    color: white;
+    font-size: 17px;
+}
+.calcbtns div button:hover {
+    background-color: #6d2851;
+}
+.calcbtns div button:active {
+    background-color: #834e6e;
+}
+.linesbtns {
+    width: 100%;
+    height: 45px;
+}
+.convamount {
+    display: none;
+}
+.convamount input {
+    width: 85px;
+    background-color: transparent;
+    border: none;
+    color: #be8f00;
+    font-weight: bold;
+    border-bottom: 2px solid #6C0241;
+    font-size: 18px;
+}
+.convamount input:focus {
+    outline: none;
+}
+.errormsg {
+    display: none;
+    color: white;
+    background-color: red;
+    right: -74px;
+    top: -25px;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    box-shadow: 0px 0px 3px black;
+}

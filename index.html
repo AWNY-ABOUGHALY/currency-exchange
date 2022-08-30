@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Currency Exchange</title>
+</head>
+<body>
+<div class="wholepage vh-100">
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+        <div class="exchangeapp bg-white rounded text-center">
+            <div class="tophalf rounded-top text-light">
+                <div class="opacityimg rounded-top py-1">
+                    <div class="tophalfafter position-relative">
+                        <div class="header d-flex justify-content-between align-items-center px-3 py-1">
+                            <div class="logo d-flex align-items-end me-1">
+                                <h3 class="mb-0">E</h3>
+                                <span class="text-warning">X</span>
+                                <h3 class="mb-0">C</h3>
+                            </div>
+                            <div class="d-flex flex-column text-start">
+                                <span class="headtitle">Exchange Convertor</span>
+                                <span class="shorttitle text-white-50">We help you to Exchange Money</span>
+                            </div>
+                        </div>
+                        <div class="exchangescreen px-3 text-light pt-2">
+                            <p class="exchangeequal mb-0 fw-600 text-start text-warning align-self-start"></p>
+                            <div class="d-flex justify-content-center align-items-end">
+                                <div class="screen text-center"></div>
+                                <div class="equalto text-warning ms-1 mb-2 pb-1"></div>
+                            </div>
+                            <div class="headscreen text-start text-white-50"></div>
+                        </div>
+                        <div class="compare mt-2 px-2">
+                            <div class="comparetitle text-start"></div>
+                            <div class="compareall compareone">
+                                <div class="comheadall compareonehead"></div>
+                                <div class="comcontall compareonecont"></div>
+                            </div>
+                            <div class="compareall comparetwo my-1">
+                                <div class="comheadall comparetwohead"></div>
+                                <div class="comcontall comparetwocont"></div>
+                            </div>
+                            <div class="compareall comparethree">
+                                <div class="comheadall comparethreehead"></div>
+                                <div class="comcontall comparethreecont"></div>
+                            </div>
+                        </div>
+                        <div class="beginningmsg position-absolute px-3"><div>Welcome to our EXC App</div><div>Now you can see the updated currency exchange rates, by choosing two currencies then pressing on the exchange button</div><div>Also by Clicking on the Gold Arrow you can go and back between Exchange Rate and EXC calculator Pages</div></div>
+                        <div class="calculator position-absolute">
+                            <div class="calculatortitle mb-1 text-center">Calculate Your Amount</div>
+                            <div class="calcbtns px-2 d-flex flex-column justify-content-center align-items-center">
+                                <div class="linesbtns line1btns d-flex">
+                                    <button class="digit" value="1">1</button>
+                                    <button class="digit" value="2">2</button>
+                                    <button class="digit" value="3">3</button>
+                                </div>
+                                <div class="linesbtns line2btns d-flex">
+                                    <button class="digit" value="4">4</button>
+                                    <button class="digit" value="5">5</button>
+                                    <button class="digit" value="6">6</button>
+                                </div>
+                                <div class="linesbtns line3btns d-flex">
+                                    <button class="digit" value="7">7</button>
+                                    <button class="digit" value="8">8</button>
+                                    <button class="digit" value="9">9</button>
+                                </div>
+                                <div class="linesbtns line4btns d-flex">
+                                    <button class="digit" value=".">.</button>
+                                    <button class="digit" value="0">0</button>
+                                    <button type="reset" class="clearbtn">Clear</button>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="calc position-absolute d-flex justify-content-center align-items-center">
+                            <i id="mainarrow" class="fa-solid fa-angles-up"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomhalf rounded-bottom px-3 py-2">
+                <div class="currconvert py-2">
+                    <div class="countryselect d-flex justify-content-between align-items-center">
+                        <div class="firstcountry rounded">
+                            <select class="bg-transparent" name="coun1" dir="rtl"></select>
+                        </div>
+                        <div class="switcharrow align-self-end"><i class="fa-solid fa-arrow-right-arrow-left fs-5"></i></div>
+                        <div class="secondcountry rounded">
+                            <select class="bg-transparent" name="coun2"></select>
+                        </div>
+                    </div>
+                    <div class="convamount">
+                        <div class="firstamount position-relative">
+                            <input type="text" id="" class="text-center" title="Please Inter Just Numbers Up To 8 Digits">
+                            <div class="errormsg position-absolute"></div>
+                        </div>
+                        <div class="secondamount">
+                            <input type="text" class="text-center" readonly>
+                        </div>
+                    </div>
+                    <div class="exbtn pt-2">
+                        <button class="btn btn-sm">Exchange</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
